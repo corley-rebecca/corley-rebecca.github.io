@@ -1,0 +1,34 @@
+/* Palette URL: https://nasa.github.io/nasawds-site/components/colors/ */
+
+:root{
+    --color-black:              #000000;
+    --color-white:              #aaa1c2;
+    --color-text-base:          var(--color-base);
+    --color-text-white:         var(--color-white);
+    --color-background:         var(--color-black);
+
+    --color-primary:            #105bd8;
+    --color-primary-darker:     #4c1e3c;
+    --color-primary-darkest:    #061f4a;
+
+    --color-primary-alt:            #02bfe7;
+    --color-primary-alt-darkest:    #046b99;
+    --color-primary-alt-dark:       #00a6d2;
+    --color-primary-alt-light:      #9bdaf1;
+    --color-primary-alt-lightest:   #e1f3f8;
+
+    --color-secondary:          #dd361c;
+    --color-secondary-darkest:  #99231b;
+    --color-secondary-dark:     #c62d1f;
+    --color-secondary-light:    #e59892;
+    --color-secondary-lightest: #f9e0de;
+
+    --color-base:               #21242b;
+    --color-gray-dark:          #c6bbb9;
+    --color-gray-light:         #c6bbb9;
+
+    --color-gold:               #ff9d1e;
+    --color-gold-light:         #f9aa43;
+    --color-gold-lighter:       #ffc375;
+    --color-gold-lightest:      #ffebd1;
+}

@@ -1,0 +1,116 @@
+/* d3 elements */
+svg{
+    color: var(--color-text-white);
+}
+
+/* tree elements */
+.node circle {
+    stroke-width: 1px;
+}
+
+.node text {
+    font: 12px sans-serif;
+    fill: white;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 4px;
+}
+
+/* hr scatter plot elements */
+.scatter-plot {
+    fill: var(--color-text-white);
+}
+
+.scatter-plot .hovered {
+    fill: var(--color-secondary);
+}
+
+.scatter-plot text {
+    font: 12px sans-serif;
+    fill: white;
+}
+
+#hr-div{
+    position: relative;
+}
+
+.slideContainer {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    height: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.slideContainer label {
+    width: 200px;
+    font: 16px sans-serif;
+    color: var(--color-text-white);
+    padding-right: 10px;
+}
+.slideContainer input[type="range"] {
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+} 
+ 
+.slideContainer input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 2px solid var(--color-base);
+    height: 18px;
+    width: 18px;
+    border-radius: 9px;
+    background: var(--color-secondary-light);
+}
+
+.slideContainer input[type="range"]::-webkit-slider-thumb:hover {
+    background: var(--color-secondary);
+} 
+
+.slideContainer input[type="range"]::-webkit-slider-thumb:active {
+    background: var(--color-secondary-darkest);
+} 
+
+.slideContainer input[type="range"]::-moz-range-thumb {
+    border: 2px solid var(--color-base);
+    height: 18px;
+    width: 18px;
+    border-radius: 9px;
+    background: var(--color-secondary-light);
+} 
+
+.slideContainer input[type="range"]::-moz-range-thumb:hover {
+    background: var(--color-secondary);
+} 
+
+.slideContainer input[type="range"]::-moz-range-thumb:active {
+    background: var(--color-secondary-darkest);
+} 
+
+/* scatter plot elements */
+#scatterplot-div{
+    position: relative;
+}
+
+.dropdownContainer {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    height: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.dropdownLabel {
+    padding-left: 20px;
+    padding-right: 5px;
+}
