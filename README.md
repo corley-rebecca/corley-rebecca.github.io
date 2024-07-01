@@ -1,7 +1,7 @@
 # final-project-too_old
 final-project-too_old created by GitHub Classroom
 
-This project is a data-visualization exercise created by Rebecca Corely. The goal of this project is to illustrate fundamental concepts of stellar evolution. 
+This project is a data-visualization exercise created by Rebecca Corley. The goal of this project is to illustrate fundamental concepts of stellar evolution. 
 To this aim, we create a webpage that hosts three visualizations: 
 |      | Illustration |
 |-----:|---------------|
